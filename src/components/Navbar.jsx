@@ -10,6 +10,14 @@ const Navbar = () => {
    
   };
 
+    useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";   // stop background scroll
+    } else {
+      document.body.style.overflow = "auto";     // allow scroll again
+    }
+  }, [isOpen]);
+
  
 
  
