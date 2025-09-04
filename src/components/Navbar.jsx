@@ -24,13 +24,13 @@ const Navbar = () => {
 
   return (
 <div >
-    <nav className="fixed inset-0 z-50 top-0 left-0 w-full bg-[#0f172a] px-4 flex justify-between md:px-15 md:items-center py-4 gap-20 h-15 ">
+    <nav className="fixed inset-0 z-50 top-0 left-0 w-full bg-[#0f172a] flex justify-between md:px-15 md:items-center py-4 gap-x-12 h-15  ">
       <span className='text-2xl font-bold tracking-wide my-auto'>Portfolio</span>
 
       {/* Desktop Menu */}
                 {/* <NavLink to="/home" className={({isActive})=>`${isActive ? "text-orange-700" : "text-white"}`}>Home</NavLink> */}
 
-      <div className='mx-24 py-2 font-semibold bg-black px-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 hidden md:flex gap-13'>
+      <div className='mx-24 py-2 font-semibold bg-black px-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 hidden md:flex gap-8'>
 <Link
   to="home"
   spy={true}
@@ -74,6 +74,17 @@ const Navbar = () => {
   className="text-white text-xl cursor-pointer"
 >
   Projects
+</Link> 
+<Link
+  to="Certificates"
+  spy={true}
+  smooth={true}
+  duration={500}
+  offset={-70}
+  activeClass="active"
+  className="text-white text-xl cursor-pointer"
+>
+  Certificates
 </Link> 
 <Link
   to="contact"
@@ -135,6 +146,17 @@ const Navbar = () => {
   onClick={() => setIsOpen(false)}
 >
   Projects
+</Link>
+
+<Link
+  to="Certificates"
+  className='cursor-pointer'
+  smooth={true}
+  duration={500}
+  offset={-70}
+  onClick={() => setIsOpen(false)}
+>
+  Certificates
 </Link>
 
 <Link

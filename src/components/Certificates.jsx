@@ -6,7 +6,7 @@ import RecipeApp from '../assets/RecipeApp.png';
 
 const Certificates = () => {
   return (
-<div name='projects' className='m-w-full'>
+<div name='Certificates' className='m-w-full'>
     <div className='m-w-full m-auto px-6 md:px-30 md:my-20 my-15'>
         
             <h1 className='text-3xl md:text-5xl font-bold text-center'>Certificates</h1>
