@@ -24,7 +24,7 @@ const About = () => {
       
       <button className='cursor-pointer bg-blue-600 text-2xl flex justify-center items-center gap-x-2 md:text-3xl py-3 md:py-4 px-5 rounded-2xl'>
         <BsFiletypePdf />
-        <a href="https://drive.google.com/file/d/1AKsVqfnj9Zb20KiHxK3aljljk0I2SC5r/view" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="https://drive.google.com/file/d/1mUw4cdM0LMVxUXYO6RgK6690oe805xCj/view" target="_blank" rel="noopener noreferrer">Resume</a>
       </button>
       <a href=""></a>
     </div>
