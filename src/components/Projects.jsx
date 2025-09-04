@@ -97,7 +97,7 @@ const Projects = () => {
                     </div>
                 <div className='px-2 my-5 py-3'>
                     <h1 className='md:text-2xl font-bold tracking-wide'>Bubbles Game</h1>
-                    <p className='md:text-xl my-2 md:my-5'>JavaScript-based mini-game that challenges your speed and focus.</p>
+                    <p className=' md:text-xl my-2 md:my-5'>JavaScript-based mini-game that challenges your speed and focus.</p>
                     
                         <div className='flex gap-x-5'>
                         

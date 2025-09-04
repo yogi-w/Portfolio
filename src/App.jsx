@@ -7,6 +7,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
+import Certificates from './components/Certificates';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <Certificates/>
       <Contact/>      
     </div>
     <Toaster className='text-4xl' />
