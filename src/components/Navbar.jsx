@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
 <div >
-    <nav className="fixed inset-0 z-50 top-0 left-0 w-full bg-[#0f172a] flex justify-between md:px-15 md:items-center py-4 gap-x-12 h-15  ">
+    <nav className="fixed inset-0 z-50 top-0 w-full bg-[#0f172a] flex justify-between px-5 md:px-15 md:items-center py-4 gap-x-12 h-15  ">
       <span className='text-2xl font-bold tracking-wide my-auto'>Portfolio</span>
 
       {/* Desktop Menu */}
