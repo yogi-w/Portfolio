@@ -4,7 +4,7 @@ import { BsFiletypePdf } from "react-icons/bs";
 const About = () => {
   return (
 <div name='about'>
-    <div className='m-w-full m-auto px-6 md:px-50 mt-12 md:my-15'>
+    <div className='m-w-full m-auto px-6 md:px-30 mt-12 md:my-15'>
        <h1 className='text-3xl md:text-5xl font-bold text-center my-3 md:pb-2'>About <span className='text-blue-500'>Me</span></h1>
        <br />
        <p className='text-xl text-gray-400 md:text-2xl font-bold pb-4'>Front-end developer!</p>

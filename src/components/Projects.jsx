@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BubbleGame from '../assets/BubblesGame.png';
+import ContactApp from '../assets/ContactApp.png';
 import RecipeApp from '../assets/RecipeApp.png';
 import WeatherApp from '../assets/WeatherApp.png';
 import { FaCode } from "react-icons/fa";
@@ -12,13 +12,13 @@ const Projects = () => {
         
             <h1 className='text-3xl md:text-5xl font-bold text-center'>Projects</h1>
 
-    <div className='my-10 md:my-15 grid w-full gap-x-10 gap-y-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto place-items-center'>
+    <div className='my-10 md:my-15 grid w-full gap-x-45 lg:gap-x-5 gap-y-10 md:grid-cols-2 lg:grid-cols-3 mx-auto place-items-center'>
 
 {/* // Project 1 */}
 
-                <div className=' hover:shadow-blue-500/100 shadow-xl border-1 border-blue-500 hover:scale-105 duration-200 rounded-xl overflow-hidden'>
+                <div className=' hover:shadow-blue-500/100 shadow-xl border-1 border-blue-500 hover:scale-105 duration-200 rounded-xl overflow-hidden sm:w-[350px] lg:w-[400px]'>
                     <div>
-                        <img className='object-cover w-full h-[200px] ' loading='lazy' src={RecipeApp} alt="image" />
+                        <img className='object-top w-full h-[200px] ' loading='lazy' src={RecipeApp} alt="image" />
                     </div>
                 <div className='px-2 my-5 py-3'>
                     <h1 className='md:text-2xl font-bold tracking-wide'>Recipe App</h1>
@@ -47,10 +47,12 @@ const Projects = () => {
             
                 </div>
 
+                
+
 
 {/* Project 2 */} 
 
-                <div className=' hover:shadow-blue-500/100 shadow-xl border-1 border-blue-500 hover:scale-105 duration-200 rounded-xl overflow-hidden'>
+                <div className=' hover:shadow-blue-500/100 shadow-xl border-1 border-blue-500 hover:scale-105 duration-200 rounded-xl overflow-hidden sm:w-[350px] lg:w-[400px]'>
                     <div>
                         <img className='object-cover w-full h-[200px] ' loading='lazy' src={WeatherApp} alt="image" />
                     </div>
@@ -83,31 +85,25 @@ const Projects = () => {
 
 
 
-
-
-
-
-
 {/* Project 3 */}
-              
-                    
-                <div className=' hover:shadow-blue-500/100 shadow-xl border-1 border-blue-500 hover:scale-105 duration-200 rounded-xl overflow-hidden'>
+                                
+                <div className=' hover:shadow-blue-500/100 shadow-xl border-1 border-blue-500 hover:scale-105 duration-200 rounded-xl overflow-hidden sm:w-[350px] lg:w-[400px]'>
                     <div>
-                        <img className='object-cover w-full h-[200px] ' loading='lazy' src={BubbleGame} alt="image" />
+                        <img className='object-top w-full h-[200px] ' loading='lazy' src={ContactApp} alt="image" />
                     </div>
                 <div className='px-2 my-5 py-3'>
-                    <h1 className='md:text-2xl font-bold tracking-wide'>Bubbles Game</h1>
-                    <p className=' md:text-xl my-2 md:my-5'>JavaScript-based mini-game that challenges your speed and focus.</p>
+                    <h1 className='md:text-2xl font-bold tracking-wide'>Contact App</h1>
+                    <p className=' md:text-xl my-2 md:my-5'>A React (Vite) app to add, edit, delete and search contacts with Context API, Tailwind CSS and local storage for data persistence.</p>
                     
                         <div className='flex gap-x-5'>
                         
-                                <a href="https://yogi-w.github.io/Bubbles-Game/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/yogi-w/Contact-App" target="_blank" rel="noopener noreferrer">
                                     
                                     <button className='cursor-pointer bg-blue-500 text-lg md:text-xl px-5 md:px-5 py-2 my-2 rounded-sm font-semibold'>Demo</button>
                                  </a>
 
                       
-                                <a href="https://github.com/yogi-w/Bubbles-Game" target="_blank" rel="noopener noreferrer">
+                                <a href="https://yogi-w.github.io/Contact-App/" target="_blank" rel="noopener noreferrer">
                                              
                                             <button className='cursor-pointer bg-blue-500 text-lg md:text-xl px-5 md:px-5 py-2 my-2 rounded-sm font-semibold flex items-center gap-x-1.5'>
                                                 <FaCode />
@@ -121,6 +117,8 @@ const Projects = () => {
 
             
                 </div>
+
+                
 
 
 
