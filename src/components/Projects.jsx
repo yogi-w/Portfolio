@@ -97,13 +97,13 @@ const Projects = () => {
                     
                         <div className='flex gap-x-5'>
                         
-                                <a href="https://github.com/yogi-w/Contact-App" target="_blank" rel="noopener noreferrer">
+                                <a href="https://yogi-w.github.io/Contact-App/" target="_blank" rel="noopener noreferrer">
                                     
                                     <button className='cursor-pointer bg-blue-500 text-lg md:text-xl px-5 md:px-5 py-2 my-2 rounded-sm font-semibold'>Demo</button>
                                  </a>
 
                       
-                                <a href="https://yogi-w.github.io/Contact-App/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/yogi-w/Contact-App" target="_blank" rel="noopener noreferrer">
                                              
                                             <button className='cursor-pointer bg-blue-500 text-lg md:text-xl px-5 md:px-5 py-2 my-2 rounded-sm font-semibold flex items-center gap-x-1.5'>
                                                 <FaCode />
